@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,6 +8,11 @@
 
     <!--FONT AWESOME CSS FILE-->
     <link rel="stylesheet" href="./css/fontawesome-all.css" />
+
+    <!-- OWL CAROUSEL CSS-->
+    <link rel="stylesheet" ref="./css/owl.carousel.css" />
+    <link rel="stylesheet" ref="./css/owl.theme.default.css" />
+
     <!--CUSTOM CSS FILE-->
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Metraj Merkezi</title>
@@ -66,7 +72,6 @@
                   <li><a href="#">Biz Kimiz</a></li>
                   <li><a href="#">Kuruluş</a></li>
                   <li><a href="#">Referanslar</a></li>
-
                 </ul>
               </li>
 
@@ -108,9 +113,98 @@
 
     <!--MAIN-->
     <main role="main">
+      <!---MAIN SLIDE-->
+      <div class="main-slider owl-carousel owl-theme">
+        <!---SINGLE SLIDE-->
+        <!---SLIDE _1_ -->
+        <div class="single-slide">
+          <img src="./img/architect.jpg" />
+          <div class="slide-overlay">
+            <div class="container">
+              <div class="slide-content">
+                <h2>Metraj Merkezi Yazılım Mühendislik A.Ş.</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                  natus tempora minima repellat eligendi quaerat perferendis
+                  accusantium. Iusto nesciunt recusandae odit explicabo aut
+                  dolorem saepe eos, soluta accusantium, itaque aliquam?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-<!--6.Videodan devam edeceksin-->>
+        <!---SLIDE _2_ -->
+        <div class="single-slide">
+          <img src="./img/construction.jpg" />
+          <div class="slide-overlay">
+            <div class="container">
+              <div class="slide-content">
+                <h2>Metraj Merkezi Yazılım Mühendislik A.Ş.</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                  natus tempora minima repellat eligendi quaerat perferendis
+                  accusantium. Iusto nesciunt recusandae odit explicabo aut
+                  dolorem saepe eos, soluta accusantium, itaque aliquam?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <!---SLIDE _3_ -->
+        <div class="single-slide">
+          <img src="./img/cranes.png" />
+          <div class="slide-overlay">
+            <div class="container">
+              <div class="slide-content">
+                <h2>Metraj Merkezi Yazılım Mühendislik A.Ş.</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                  natus tempora minima repellat eligendi quaerat perferendis
+                  accusantium. Iusto nesciunt recusandae odit explicabo aut
+                  dolorem saepe eos, soluta accusantium, itaque aliquam?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---SLIDE _4_ -->
+        <div class="single-slide">
+          <img src="./img/workdraw.jpg" />
+          <div class="slide-overlay">
+            <div class="container">
+              <div class="slide-content">
+                <h2>Metraj Merkezi Yazılım Mühendislik A.Ş.</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                  natus tempora minima repellat eligendi quaerat perferendis
+                  accusantium. Iusto nesciunt recusandae odit explicabo aut
+                  dolorem saepe eos, soluta accusantium, itaque aliquam?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+
+
+    <!--- JQUERY JS -->
+    <script src="js/jquery-3.6.3.slim.js"></script>
+
+    <!--- OWL CAROUSEL JS-->
+    <script src="js/owl.carousel.js"></script>
+
+    <script>
+    $(document).ready(function () {
+      let owl = $(".owl-carousel").owlCarousel({
+        autoplay: false,
+        dots: false,
+        items: 1,
+      });
+    });
+  </script>
   </body>
+
 </html>
