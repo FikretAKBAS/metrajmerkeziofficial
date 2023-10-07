@@ -57,6 +57,7 @@ img {
                 font-size: 5rem;
                 font-family: $primary-font;
                 color: $primary-color;
+                /*text-transform: uppercase; Metraj Merkezi Logo Kısmını Büyük Yapıyor. O Yüzden Devre Dışı Bıraktım.*/
             }
 
         }
@@ -202,3 +203,141 @@ img {
         }
     }
 }
+
+/* Footer*/
+.site-footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 3.25rem;
+  color: #737373;
+
+  hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+
+    &.small {
+      margin: 20px 0;
+    }
+  }
+
+  h6 {
+    color: $primary-color;
+    font-size: 16px;
+    text-transform: none;
+    margin-top: 5px;
+    letter-spacing: 2px;
+  }
+  a {
+    color: #737373;
+    position: relative;
+
+    &:hover {
+      color: $primary-color;
+      left: 0.25rem;
+      transition: left 0.3s;
+    }
+  }
+
+  a {
+    color: #737373;
+
+    &:hover {
+      color: $primary-color;
+      text-decoration: none;
+    }
+  }
+
+  .footer-links {
+    padding-left: 0;
+    list-style: none;
+
+    li {
+      display: block;
+
+      a {
+        color: #737373;
+
+        &:active, &:focus, &:hover {
+          color: $light-color;
+          text-decoration: none;
+        }
+      }
+
+      &.inline {
+        display: inline-block;
+      }
+    }
+  }
+
+  .social-icons {
+    text-align: right;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+    li {
+      display: inline-block;
+      margin-bottom: 4px;
+
+      &.title {
+        margin-right: 15px;
+        text-transform: uppercase;
+        color: #96a2b2;
+        font-weight: 700;
+        font-size: 13px;
+      }
+
+      a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-left: 6px;
+        margin-right: 0;
+        border-radius: 100%;
+        background-color: #33353d;
+        font-size: 16px;
+        display: inline-block;
+        text-align: center;
+
+        &:active, &:focus, &:hover {
+          color: #fff;
+          color: $primary-color;
+        }
+
+        &.size-sm {
+          line-height: 34px;
+          height: 34px;
+          width: 34px;
+          font-size: 14px;
+        }
+
+        &.facebook:hover {
+          background-color: #3b5998;
+        }
+
+        &.twitter:hover {
+          background-color: #00aced;
+        }
+
+        &.linkedin:hover {
+          background-color: #007bb6;
+        }
+
+        &.dribbble:hover {
+          background-color: #ea4c89;
+        }
+      }
+    }
+
+    @media (max-width: 767px) {
+      li.title {
+        display: block;
+        margin-right: 0;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+

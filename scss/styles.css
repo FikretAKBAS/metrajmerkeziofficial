@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /** GOOGLE FONTS
 font-family:"Changa", sans-serif;
 font-family: "Open Sans", sans-serif;
@@ -106,7 +105,6 @@ img {
   font-size: 5rem;
   font-family: "Changa", sans-serif;
   color: #e51515;
-  /*text-transform: uppercase; Metraj Merkezi Logo Kısmını Büyük Yapıyor. O Yüzden Devre Dışı Bıraktım.*/
 }
 .top-header .container .top-social-menu {
   display: flex;
@@ -221,118 +219,4 @@ img {
   border-bottom: 2px solid #e51515;
   padding: 10rem 7rem;
   background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8));
-}
-
-/* Footer*/
-.site-footer {
-  background-color: #26272b;
-  padding: 45px 0 20px;
-  font-size: 15px;
-  line-height: 3.25rem;
-  color: #737373;
-}
-.site-footer hr {
-  border-top-color: #bbb;
-  opacity: 0.5;
-}
-.site-footer hr.small {
-  margin: 20px 0;
-}
-.site-footer h6 {
-  color: #e51515;
-  font-size: 16px;
-  text-transform: none;
-  margin-top: 5px;
-  letter-spacing: 2px;
-}
-.site-footer a {
-  color: #737373;
-  position: relative;
-}
-.site-footer a:hover {
-  color: #e51515;
-  left: 0.25rem;
-  transition: left 0.3s;
-}
-.site-footer a {
-  color: #737373;
-}
-.site-footer a:hover {
-  color: #e51515;
-  text-decoration: none;
-}
-.site-footer .footer-links {
-  padding-left: 0;
-  list-style: none;
-}
-.site-footer .footer-links li {
-  display: block;
-}
-.site-footer .footer-links li a {
-  color: #737373;
-}
-.site-footer .footer-links li a:active, .site-footer .footer-links li a:focus, .site-footer .footer-links li a:hover {
-  color: #fefefe;
-  text-decoration: none;
-}
-.site-footer .footer-links li.inline {
-  display: inline-block;
-}
-.site-footer .social-icons {
-  text-align: right;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-.site-footer .social-icons li {
-  display: inline-block;
-  margin-bottom: 4px;
-}
-.site-footer .social-icons li.title {
-  margin-right: 15px;
-  text-transform: uppercase;
-  color: #96a2b2;
-  font-weight: 700;
-  font-size: 13px;
-}
-.site-footer .social-icons li a {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  margin-left: 6px;
-  margin-right: 0;
-  border-radius: 100%;
-  background-color: #33353d;
-  font-size: 16px;
-  display: inline-block;
-  text-align: center;
-}
-.site-footer .social-icons li a:active, .site-footer .social-icons li a:focus, .site-footer .social-icons li a:hover {
-  color: #fff;
-  color: #e51515;
-}
-.site-footer .social-icons li a.size-sm {
-  line-height: 34px;
-  height: 34px;
-  width: 34px;
-  font-size: 14px;
-}
-.site-footer .social-icons li a.facebook:hover {
-  background-color: #3b5998;
-}
-.site-footer .social-icons li a.twitter:hover {
-  background-color: #00aced;
-}
-.site-footer .social-icons li a.linkedin:hover {
-  background-color: #007bb6;
-}
-.site-footer .social-icons li a.dribbble:hover {
-  background-color: #ea4c89;
-}
-@media (max-width: 767px) {
-  .site-footer .social-icons li.title {
-    display: block;
-    margin-right: 0;
-    font-weight: 600;
-  }
 }/*# sourceMappingURL=styles.css.map */
